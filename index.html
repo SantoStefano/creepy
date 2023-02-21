@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Creepy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="question first">Ты выгуливаешь своего пса, Руфуса, и видишь заброшенный дом. Ты:
+    <p class="choice">
+       <button data-num='seven'>7</button> Осмотришь его <br>
+       <button data-num='four'>4</button> Пройдешь мимо <br>
+       <button data-num='ten'>10</button> Пусть Руфус решает <br> 
+    </p>
+  </div>
+
+  <div class="question hide" id='one'>Девушка злится. Деревяшка от метлы вырывается из рук и втыкается тебе в шею. Ты задыхаешься. 
+    <p class="choice">
+      <input type="button" value="Начать заново" class="start">
+    </p>
+  </div>
+
+  <div class="question hide" id='two'>Ты выносишь дверь, повредив плечо. Ты внутри! Нужно оружие , но вокруг нет ничего подходящего. Ты возьмешь: 
+    <p class="choice">
+       <button data-num='sixteen'>16</button> Пыльную ручку от метлы  <br>
+       <button data-num="nine">9</button> Жуткую куклу. <br>
+    </p>
+  </div>
+
+  <div class="question hide" id='three'>Ты слышишь смех, доносящийся из комнаты. Ты:  
+    <p class="choice">
+       <button data-num='sixteen'>16</button> Зайдешь в неё <br>
+       <button data-num='fourteen'>14</button> Сбежишь <br>
+    </p>
+  </div>
+
+  <div class="question hide" id='four'>Не смотря на то, что Руфус тянет тебя к заброшенному дому, ты решаешь возвращаться к себе. Ночью, пес пропадает. Ты 
+    <p class="choice">
+       <button data-num='seven'>7</button> Идешь искать его в тот дом <br>
+       <button data-num='nineteen'>19</button> Надеешься, что он вернется сам   <br>
+    </p>
+  </div>
+
+  <div class="question hide" id='five'>Ты бежишь домой, весь в крови Руфуса. Ты выжил , но какой ценой? Каждый день тебе снится твой пес. Ты так больше не можешь жить и через пару лет совершаешь самоубийство. 
+    <p class="choice">
+      <input type="button" value="Начать заново" class="start">
+    </p>
+  </div>
+
+  <div class="question hide" id='six'>Руфус вдруг в бешенстве кидается на тебя. Ты:  
+    <p class="choice">
+       <button data-num='five'>5</button> Бьешь его кинжалом <br>
+       <button data-num='thirteen'>13</button> Убегаешь<br>
+    </p>
+  </div>
+
+  <div class="question hide" id='seven'>Дверь закрыта. Ты: 
+    <p class="choice">
+       <button data-num='fifteen'>15</button> Разобьешь окно.  <br>
+       <button data-num='two'>2</button> Протаранишь дверь плечом. <br>
+    </p>
+  </div>
+  <div class="question hide" id='eight'>Когда ты уже собираешься уходить Руфус сбегает, ты бежишь за ним за угол дома и вдруг видишь открытую дверь подвала и ведущие вниз ступеньки. Ты: 
+    <p class="choice">
+       <button data-num='sixteen'>16</button> Спустишься <br>
+       <button data-num='fourteen'>14</button> Хватаешь собаку и собираешься ехать в больницу <br>
+    </p>
+  </div>
+
+  <div class="question hide" id='nine'>Кукла вдруг заговорила. Ты: 
+    <p class="choice">
+       <button data-num='eleven'>11</button> Пытаешься понять, что она говорит<br>
+       <button data-num='twenty'>20</button> В ужасе брасаешь её на пол <br>
+    </p>
+  </div>
+
+  <div class="question hide" id='ten'>Руфус тянет тебя в сторону дома. Похоже, придётся зайти. 
+    <p class="choice">
+       <button data-num='seven'>7</button> ...  <br>
+    </p>
+  </div>
+
+  <div class="question hide" id='eleven'>Кукла просит тебя войти в другую комнату. Ты: 
+    <p class="choice">
+       <button data-num='sixteen'>16</button> Соглашаешься и идешь <br>
+       <button data-num='twenty'>20</button> Отказываешься и разбиваешь её об пол <br>
+    </p>
+  </div>
+
+  <div class="question hide" id='twelve'>Ты напуган, нужно оружие. Ты возьмешь:
+    <p class="choice">
+       <button data-num='six'>6</button> Пыльную ручку от метлы <br>
+       <button data-num='three'>3</button> Ритуальный кинжал <br>
+    </p>
+  </div>
+
+  <div class="question hide" id='thirteen'>Руфус оказывается быстрее тебя. Ему удается вцепиться тебе в шею. Ты истекаешь кровью и умираешь. 
+    <p class="choice">
+      <input type="button" value="Начать заново" class="start">
+    </p>
+  </div>
+
+  <div class="question hide" id='fourteen'>Ты почти добрался до середины двора, но потерял сознание от потери крови. Умераешь до того, как тебя обнаружили. 
+    <p class="choice">
+      <input type="button" value="Начать заново" class="start">
+    </p>
+  </div>
+
+  <div class="question hide" id='fifteen'>Рядом нет камней, ты оборачиваешь своим свитером руку и бьешь по стеклу. Окно разбивается, но ты порезался. Ты: 
+    <p class="choice">
+       <button data-num='eight'>8</button> Уходишь за медицинской помощью <br>
+       <button data-num='twelve'>12</button> Всё равно залазишь в дом <br>
+    </p>
+  </div>
+
+  <div class="question hide" id='sixteen'>Откуда то появляется молодая девушка. Ты:  
+    <p class="choice">
+       <button data-num='eighteen'>18</button> Попытаешься с ней подружиться <br>
+       <button data-num='one'>1</button> Бьешь её деревяшкой от метлы <br>
+    </p>
+  </div>
+
+  <div class="question hide" id='seventeen'>Руфус набрасывается на тебя, пока ты спишь. Твое горло разорвано, ты умираешь от кровотечения. 
+    <p class="choice">
+      <input type="button" value="Начать заново" class="start">
+    </p>
+  </div>
+
+  <div class="question hide" id='eighteen'>Молодая девушка хочет взять тебя за руку и увести за собой. Ты 
+    <p class="choice">
+       <button data-num='twenty'>20</button> Идешь с ней <br>
+       <button data-num='one'>1</button> Отказываешься и остаешься на месте <br>
+    </p>
+  </div>
+
+  <div class="question hide" id='nineteen'>Руфус возвращается через три дня. Но он, кажется, изменился. ТЫ: 
+    <p class="choice">
+       <button data-num='seventeen'>17</button>  Не обращаешь на это внимания, просто рад что он вернулся <br>
+       <button data-num='seven'>7</button> Идешь с собакой в заброшенный дом , чтобы понять что же с ней произошло <br>
+    </p>
+  </div>
+
+  <div class="question hide" id='twenty'>Появляется привидение. Ты падаешь на пол и не можешь пошевелиться. В конце концов ты умираешь от обезвоживания в окружении призраков. 
+    <p class="choice">
+      <input type="button" value="Начать заново" class="start">
+    </p>
+  </div>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
